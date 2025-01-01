@@ -33,7 +33,7 @@ class ConfigService {
       password: this.getValue('POSTGRES_PASSWORD'),
       database: this.getValue('POSTGRES_DATABASE'),
       autoLoadEntities: true,
-      synchronize: false,
+      synchronize: true,
       migrationsRun: true,
       logging: true,
       ssl: this.getValue('POSTGRES_SSL') === "true",
