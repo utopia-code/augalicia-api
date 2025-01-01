@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { ActiveUserInterface } from 'src/common/interfaces/active-user.interface';
+import { ActiveUserInterface } from './../common/interfaces/active-user.interface';
 import { ImageDto } from './dtos/image.dto';
 import { NotificationDto } from './dtos/notification.dto';
 import { OpeningSeasonDto } from './dtos/opening-season.dto';

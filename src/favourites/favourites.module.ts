@@ -1,7 +1,7 @@
 import { forwardRef, Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { AuthModule } from 'src/auth/auth.module';
-import { ProductsModule } from 'src/products/products.module';
+import { AuthModule } from './../auth/auth.module';
+import { ProductsModule } from './../products/products.module';
 import { Favourite } from './entities/favourite.entity';
 import { FavouritesController } from './favourites.controller';
 import { FavouritesRepository } from './favourites.repository';

@@ -1,8 +1,8 @@
 import { BadRequestException, Injectable, UnauthorizedException } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
-import { Role } from "src/common/enums/role.enum";
-import { ActiveUserInterface } from "src/common/interfaces/active-user.interface";
 import { Repository } from "typeorm";
+import { Role } from "./../common/enums/role.enum";
+import { ActiveUserInterface } from "./../common/interfaces/active-user.interface";
 import { AccesibilityDto } from "./dtos/accesibility.dto";
 import { ComplementaryTechniqueDto } from "./dtos/complementary-technique.dto";
 import { ServiceDto } from "./dtos/service.dto";

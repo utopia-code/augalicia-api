@@ -1,4 +1,3 @@
-import { Role } from 'src/common/enums/role.enum';
 import {
     AfterInsert,
     AfterRemove,
@@ -7,6 +6,7 @@ import {
     Entity,
     PrimaryGeneratedColumn
 } from 'typeorm';
+import { Role } from './../common/enums/role.enum';
 
 @Entity()
 export class User {

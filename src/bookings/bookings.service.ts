@@ -8,8 +8,6 @@ export class BookingsService {
     private bookingRepository: BookingRepository
   ) {}
 
-  
-
   async getAllBookingsByUser(user: ActiveUserInterface) {
     return await this.bookingRepository.getAllBookingsByUser(user);
   }

@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { BookingDto } from 'src/bookings/dto/booking.dto';
-import { ActiveUserInterface } from 'src/common/interfaces/active-user.interface';
+import { BookingDto } from './../bookings/dto/booking.dto';
+import { ActiveUserInterface } from './../common/interfaces/active-user.interface';
 import { AppointmentRepository } from './appointments.repository';
 import { CreateAppointmentDto } from './dto/create-appointment.dto';
 import { UpdateAppointmentDto } from './dto/update-appointment.dto';

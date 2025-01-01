@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { ActiveUserInterface } from 'src/common/interfaces/active-user.interface';
+import { ActiveUserInterface } from './../common/interfaces/active-user.interface';
 import { AccesibilityDto } from './dtos/accesibility.dto';
 import { ComplementaryTechniqueDto } from './dtos/complementary-technique.dto';
 import { ServiceDto } from './dtos/service.dto';

@@ -1,8 +1,8 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
 import { ApiBearerAuth, ApiUnauthorizedResponse } from '@nestjs/swagger';
-import { ActiveUser } from 'src/common/decorators/active-user.decorator';
-import { ActiveUserInterface } from 'src/common/interfaces/active-user.interface';
-import { Role } from '../common/enums/role.enum';
+import { ActiveUser } from './../common/decorators/active-user.decorator';
+import { Role } from './../common/enums/role.enum';
+import { ActiveUserInterface } from './../common/interfaces/active-user.interface';
 import { AuthService } from './auth.service';
 import { Auth } from './decorators/auth.decorator';
 import { LoginDto } from './dto/login.dto';

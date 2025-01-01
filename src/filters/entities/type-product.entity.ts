@@ -1,5 +1,5 @@
-import { Product } from "src/products/product.entity";
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn, Unique } from "typeorm";
+import { Product } from "./../../products/product.entity";
 
 @Entity()
 @Unique(["name"])

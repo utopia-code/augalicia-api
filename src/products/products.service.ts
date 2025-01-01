@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { ActiveUserInterface } from 'src/common/interfaces/active-user.interface';
+import { ActiveUserInterface } from './../common/interfaces/active-user.interface';
 import { CreateProductDto } from './dtos/create-product.dto';
 import { UpdateProductDto } from './dtos/update-product.dto';
 import { ProductsRepository } from './products.repository';

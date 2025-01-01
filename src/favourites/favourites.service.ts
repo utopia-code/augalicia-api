@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { ActiveUserInterface } from 'src/common/interfaces/active-user.interface';
+import { ActiveUserInterface } from './../common/interfaces/active-user.interface';
 import { FavouriteDto } from './dto/favourite.dto';
 import { FavouritesRepository } from './favourites.repository';
 

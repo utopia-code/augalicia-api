@@ -1,6 +1,6 @@
-import { Product } from "src/products/product.entity";
-import { User } from "src/users/user.entity";
 import { Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { Product } from "./../../products/product.entity";
+import { User } from "./../../users/user.entity";
 
 @Entity()
 export class Favourite {

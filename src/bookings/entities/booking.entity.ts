@@ -1,6 +1,6 @@
 import { Appointment } from "src/appointments/entities/appointment.entity";
-import { User } from "src/users/user.entity";
 import { Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { User } from "./../../users/user.entity";
 
 @Entity()
 export class Booking {

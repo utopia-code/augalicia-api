@@ -1,16 +1,16 @@
 import { Expose, Type } from "class-transformer";
-import { AppointmentDto } from "src/appointments/dto/appointment.dto";
-import { ImageResDto } from "src/features/dtos/image-res.dto";
-import { NotificationResDto } from "src/features/dtos/notification-res.dto";
-import { OpeningSeasonResDto } from "src/features/dtos/opening-season-res.dto";
-import { AccesibilityResDto } from "src/filters/dtos/accesibility-res.dto";
-import { ComplementaryTechniqueResDto } from "src/filters/dtos/complementary-technique-res.dto";
-import { ServiceResDto } from "src/filters/dtos/service-res.dto";
-import { TermalTechniqueResDto } from "src/filters/dtos/termal-technique-res.dto";
-import { TreatmentResDto } from "src/filters/dtos/treatment-res.dto";
-import { TypeProductResDto } from "src/filters/dtos/type-product-res.dto";
-import { TypeTermalCentreeResDto } from "src/filters/dtos/type-termal-centre-res.dto";
-import { TypeWaterResDto } from "src/filters/dtos/type-water-res.dto";
+import { AppointmentDto } from "./../../appointments/dto/appointment.dto";
+import { ImageResDto } from "./../../features/dtos/image-res.dto";
+import { NotificationResDto } from "./../../features/dtos/notification-res.dto";
+import { OpeningSeasonResDto } from "./../../features/dtos/opening-season-res.dto";
+import { AccesibilityResDto } from "./../../filters/dtos/accesibility-res.dto";
+import { ComplementaryTechniqueResDto } from "./../../filters/dtos/complementary-technique-res.dto";
+import { ServiceResDto } from "./../../filters/dtos/service-res.dto";
+import { TermalTechniqueResDto } from "./../../filters/dtos/termal-technique-res.dto";
+import { TreatmentResDto } from "./../../filters/dtos/treatment-res.dto";
+import { TypeProductResDto } from "./../../filters/dtos/type-product-res.dto";
+import { TypeTermalCentreeResDto } from "./../../filters/dtos/type-termal-centre-res.dto";
+import { TypeWaterResDto } from "./../../filters/dtos/type-water-res.dto";
 
 export class ProductDto {
     @Expose()

@@ -1,5 +1,5 @@
 import { Controller, Get, Query } from "@nestjs/common";
-import { NearbyProductsDto } from "src/nearbyProducts/nearby-products.dto";
+import { NearbyProductsDto } from "./../nearbyProducts/nearby-products.dto";
 import { NearbyProductsService } from "./nearbyProducts.service";
 
 @Controller('nearby-products')

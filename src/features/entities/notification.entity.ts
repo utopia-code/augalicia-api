@@ -1,6 +1,6 @@
-import { Position, Type } from "src/common/enums/notification.enum";
-import { Product } from "src/products/product.entity";
 import { Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { Position, Type } from "./../../common/enums/notification.enum";
+import { Product } from "./../../products/product.entity";
 
 @Entity()
 export class Notification {

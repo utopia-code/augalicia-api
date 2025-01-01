@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
-import { ActiveUserInterface } from "src/common/interfaces/active-user.interface";
 import { Repository } from "typeorm";
+import { ActiveUserInterface } from "./../common/interfaces/active-user.interface";
 import { Booking } from "./entities/booking.entity";
 
 @Injectable()

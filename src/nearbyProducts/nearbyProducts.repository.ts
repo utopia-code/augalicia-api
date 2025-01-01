@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { ProductsRepository } from "src/products/products.repository";
+import { ProductsRepository } from "./../products/products.repository";
 
 @Injectable()
 export class NearbyProductsRepository {

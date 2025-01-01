@@ -1,8 +1,8 @@
 import { forwardRef, Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { AppointmentsModule } from 'src/appointments/appointments.module';
-import { AuthModule } from 'src/auth/auth.module';
-import { ProductsModule } from 'src/products/products.module';
+import { AppointmentsModule } from './../appointments/appointments.module';
+import { AuthModule } from './../auth/auth.module';
+import { ProductsModule } from './../products/products.module';
 import { BookingsController } from './bookings.controller';
 import { BookingRepository } from './bookings.repository';
 import { BookingsService } from './bookings.service';

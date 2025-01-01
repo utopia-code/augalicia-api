@@ -1,7 +1,7 @@
 import { Type } from "class-transformer";
 import { IsArray, IsNumber, IsOptional, IsString } from "class-validator";
-import { ImageDto } from "src/features/dtos/image.dto";
-import { NotificationDto } from "src/features/dtos/notification.dto";
+import { ImageDto } from "./../../features/dtos/image.dto";
+import { NotificationDto } from "./../../features/dtos/notification.dto";
 
 export class CreateProductDto {
     @IsString()

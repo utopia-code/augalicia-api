@@ -1,7 +1,7 @@
-import { Booking } from "src/bookings/entities/booking.entity";
-import { Product } from "src/products/product.entity";
-import { User } from "src/users/user.entity";
 import { Column, Entity, JoinColumn, ManyToOne, OneToMany, PrimaryGeneratedColumn } from "typeorm";
+import { Booking } from "./../../bookings/entities/booking.entity";
+import { Product } from "./../../products/product.entity";
+import { User } from "./../../users/user.entity";
 
 @Entity()
 export class Appointment {

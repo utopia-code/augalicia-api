@@ -1,11 +1,11 @@
 import { BadRequestException, Injectable, UnauthorizedException } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
-import { BookingDto } from "src/bookings/dto/booking.dto";
-import { Booking } from "src/bookings/entities/booking.entity";
-import { Role } from "src/common/enums/role.enum";
-import { ActiveUserInterface } from "src/common/interfaces/active-user.interface";
-import { Product } from "src/products/product.entity";
 import { Repository } from "typeorm";
+import { BookingDto } from "./../bookings/dto/booking.dto";
+import { Booking } from "./../bookings/entities/booking.entity";
+import { Role } from "./../common/enums/role.enum";
+import { ActiveUserInterface } from "./../common/interfaces/active-user.interface";
+import { Product } from "./../products/product.entity";
 import { CreateAppointmentDto } from "./dto/create-appointment.dto";
 import { UpdateAppointmentDto } from "./dto/update-appointment.dto";
 import { Appointment } from "./entities/appointment.entity";
