@@ -22,12 +22,7 @@ async function bootstrap() {
     })
   )
 
-  app.enableCors({
-    origin: 'http://localhost:4200',
-    methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
-    credentials: false
-  })
+  app.enableCors()
 
   const config = new DocumentBuilder()
     .setTitle("AuGalicia API")
