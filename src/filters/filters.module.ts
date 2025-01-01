@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { AuthModule } from './../auth/auth.module';
 import { Accesibility } from './entities/accesibility.entity';
 import { ComplementaryTechnique } from './entities/complementary-technique.entity';
 import { Service } from './entities/services.entity';
@@ -22,7 +23,8 @@ import { FiltersService } from './filters.service';
     Service,
     Accesibility,
     ComplementaryTechnique
-  ])],
+  ]),
+  AuthModule],
   controllers: [FiltersController],
   providers: [FiltersService, FiltersRepository],
   exports: [TypeOrmModule]
