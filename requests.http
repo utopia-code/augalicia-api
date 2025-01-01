@@ -1,0 +1,16 @@
+### List all messages
+GET http://localhost:3000/users
+
+
+### Create a new message
+POST http://localhost:3000/users
+content-type: application/json
+
+{
+    "name": "Here",
+    "email": "asdf@asdf.com"
+}
+
+
+### Get a particular user
+GET http://localhost:3000/users/772

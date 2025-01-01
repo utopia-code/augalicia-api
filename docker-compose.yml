@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:13
+    container_name: postgres_db
+    ports:
+      - '5433:5432'
+    environment:
+      POSTGRES_DB: augalicia_api
+      POSTGRES_USER: augalicia_api_user
+      POSTGRES_PASSWORD: augalicia_api_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data:

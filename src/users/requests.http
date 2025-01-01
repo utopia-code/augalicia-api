@@ -1,0 +1,40 @@
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "name": "yourname",
+    "surname": "yoursurname",
+    "email": "2sdf@gmail.com",
+    "password": "ilj232323ghhasdf"
+}
+
+
+### Signin
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+    "email": "2sdf@gmail.com",
+    "password": "ilj232323ghhasdf"
+}
+
+### Find a particular user with a given ID
+GET http://localhost:3000/auth/3
+
+
+### Find all users with a given email
+GET http://localhost:3000/auth?asdf@gmail.com
+
+
+### Delete an user given ID
+DELETE http://localhost:3000/auth/2
+
+
+### Update an user
+
+PATCH http://localhost:3000/auth/4
+Content-Type: application/json
+
+{
+    "name": "New Name"
+}
