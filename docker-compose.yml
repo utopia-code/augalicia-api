@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  postgresDB:
+    image: postgres:14.1-alpine
+    restart: always
+    environment:
+      POSTGRES_DB: augalicia_api
+      POSTGRES_USER: augalicia_api_user
+      POSTGRES_PASSWORD: augalicia_api_password
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    ports:
+      - "5436:5432"
