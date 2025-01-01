@@ -22,7 +22,8 @@ import { UsersModule } from './users/users.module';
       type: 'postgres',
       url: process.env.POSTGRES_URL,
       autoLoadEntities: true,
-      synchronize: false,
+      keepConnectionAlive: true,
+      synchronize: true,
       ssl: process.env.POSTGRES_SSL === "true",
       extra: {
         ssl:
@@ -32,6 +33,7 @@ import { UsersModule } from './users/users.module';
               }
             : null,
       },
+      entities: ["dist/**/*.entity{.ts,.js}"],
     }),
     UsersModule, 
     ProductsModule, 
