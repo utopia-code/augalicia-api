@@ -23,8 +23,7 @@ import { UsersModule } from './users/users.module';
       url: process.env.POSTGRES_URL,
       autoLoadEntities: true,
       keepConnectionAlive: true,
-      synchronize: true,
-      ssl: process.env.POSTGRES_SSL === "true",
+      synchronize: false,
       extra: {
         ssl:
         process.env.POSTGRES_SSL === "true"
